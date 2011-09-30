@@ -1,0 +1,879 @@
+TLeaderboard
+v7
+r0
+t338872101.630711
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Leaderboard.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Info.plist Leaderboard-Info.plist
+cCompileXIB /Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+cCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+cCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScoresTop.png Classes/HighScoresTop.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/bg.png Classes/bg.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobal1.png Classes/hsglobal1.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobalbig1.png Classes/hsglobalbig1.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocal1.png Classes/hslocal1.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocalbig1.png Classes/hslocalbig1.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenu1.png Classes/hsmenu1.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenubig1.png Classes/hsmenubig1.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsname.png Classes/hsname.png
+cCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsscore.png Classes/hsscore.png
+cProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/main.o /Users/faizanaziz/Desktop/Leaderboard/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/LeaderboardAppDelegate.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoresViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoreCell.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScores.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/main.o /Users/faizanaziz/Desktop/Leaderboard/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/LeaderboardAppDelegate.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoresViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoreCell.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScores.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/faizanaziz/Library/MobileDevice/Provisioning Profiles/68FD5E03-4FE6-4B24-83C1-18112164AC02.mobileprovision" /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.h
+c000000004C089A490000000000000329
+t1275632201
+s809
+i<Foundation/Foundation.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m
+c000000004C089A490000000000000244
+t1275632201
+s580
+i"HighScoreCell.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib
+c000000004C089A490000000000006B1E
+t1275632201
+s27422
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreRecord.h
+c000000004E8285980000000000000255
+t1317176728
+s597
+i<Foundation/Foundation.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreRecord.m
+c000000004E8282C50000000000000307
+t1317176005
+s775
+i"HighScoreRecord.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.h
+c000000004E828F5700000000000001F1
+t1317179223
+s497
+i<Foundation/Foundation.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m
+c000000004E828F5E00000000000006C6
+t1317179230
+s1734
+i"HighScores.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+c000000004C515AFC00000000000086C8
+t1280400124
+s34504
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresTop.png
+c000000004C5111E600000000000010A2
+t1280381414
+s4258
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h
+c000000004E828F9C00000000000002C8
+t1317179292
+s712
+i<UIKit/UIKit.h>
+i"HighScoreCell.h"
+i"HighScoreRecord.h"
+i"HighScores.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m
+c000000004C7390A6000000000000188F
+t1282642086
+s6287
+i"HighScoresViewController.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.h
+c000000004E827A300000000000000175
+t1317173808
+s373
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m
+c000000004E827A3C0000000000000AB7
+t1317173820
+s2743
+i"LeaderboardAppDelegate.h"
+i"HighScoresViewController.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardViewController.h
+c000000004E82789600000000000000FA
+t1317173398
+s250
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardViewController.m
+c000000004E82789600000000000005D1
+t1317173398
+s1489
+i"LeaderboardViewController.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/bg.png
+c000000004C089A4900000000000000E8
+t1275632201
+s232
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobal1.png
+c000000004C089A490000000000000C54
+t1275632201
+s3156
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobalbig1.png
+c000000004C089A480000000000000DD1
+t1275632200
+s3537
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocal1.png
+c000000004C089A480000000000000BE4
+t1275632200
+s3044
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocalbig1.png
+c000000004C089A490000000000000D4F
+t1275632201
+s3407
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenu1.png
+c000000004C089A480000000000000B01
+t1275632200
+s2817
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenubig1.png
+c000000004C089A480000000000000C47
+t1275632200
+s3143
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsname.png
+c000000004C089A49000000000000022E
+t1275632201
+s558
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsscore.png
+c000000004C089A4800000000000002A1
+t1275632200
+s673
+
+N/Users/faizanaziz/Desktop/Leaderboard/LeaderboardViewController.xib
+c000000004E8278960000000000001A55
+t1317173398
+s6741
+
+N/Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch
+c000000004E82789600000000000000BF
+t1317173398
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+c000000004E8278960000000000004E59
+t1317173398
+s20057
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app.dSYM
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScoreCell.nib
+t1317179297
+s2700
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScores.nib
+t1317179298
+s3145
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScoresTop.png
+t1317179298
+s4998
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Info.plist
+t1317179296
+s797
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Leaderboard
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/LeaderboardViewController.nib
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/MainWindow.nib
+t1317179297
+s1131
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/PkgInfo
+t1317179297
+s8
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/ResourceRules.plist
+t1317179297
+s485
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/bg.png
+t1317179298
+s253
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/embedded.mobileprovision
+t1317179301
+s7696
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobal1.png
+t1317179298
+s5315
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobalbig1.png
+t1317179298
+s5717
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocal1.png
+t1317179298
+s5111
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocalbig1.png
+t1317179298
+s5525
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenu1.png
+t1317179299
+s4760
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenubig1.png
+t1317179299
+s5179
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsname.png
+t1317179299
+s796
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsscore.png
+t1317179299
+s958
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard.xcent
+t1317179301
+s633
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoreCell.o
+t1317179301
+s44228
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoreRecord.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScores.o
+t1317179301
+s12444
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoresViewController.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/Leaderboard
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/Leaderboard.LinkFileList
+c000000004E828FA0000000000000029C
+t1317179296
+s668
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/LeaderboardAppDelegate.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/LeaderboardViewController.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/main.o
+t1317179301
+s6444
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoreCell.o
+t1317179301
+s44060
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoreRecord.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScores.o
+t1317179301
+s12336
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoresViewController.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/Leaderboard
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/Leaderboard.LinkFileList
+c000000004E828FA0000000000000029C
+t1317179296
+s668
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/LeaderboardAppDelegate.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/LeaderboardViewController.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/main.o
+t1317179301
+s6428
+
+N/Users/faizanaziz/Desktop/Leaderboard/main.m
+c000000004E827896000000000000016D
+t1317173398
+s365
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Library/MobileDevice/Provisioning Profiles/68FD5E03-4FE6-4B24-83C1-18112164AC02.mobileprovision
+c000000004E4F45E90000000000001E10
+t1313818089
+s7696
+
+N/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch.gch
+t1317179300
+s9983704
+
+N/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch.gch
+t1317179300
+s10446552
+
+NLeaderboard-Info.plist
+c000000004E827896000000000000038D
+t1317173398
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338872096#338872096#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCodeSign /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoreCell.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338872101.132198
+e338872101.235718
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoreCell.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m338872101#338872101#0(0"0(0#0#61"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m8614652096#1819"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv6 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoreCell.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoreRecord.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreRecord.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScores.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338872101.233380
+e338872101.486775
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScores.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores addNewHighScore:]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: 'NSNumber' may not respond to '-objectForKey:'
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: (Messages without a matching method signature
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: will be assumed to return 'id' and accept
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: '...' as arguments.)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores clearLocalHighScores]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:54: warning: 'NSArray' may not respond to '-alloc'
+lSLF07#2@66"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872101#338872101#0(770"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores addNewHighScore:]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: 'NSNumber' may not respond to '-objectForKey:'/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: (Messages without a matching method signature/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: will be assumed to return 'id' and accept/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: '...' as arguments.)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores clearLocalHighScores]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:54: warning: 'NSArray' may not respond to '-alloc'3(22@46"'NSNumber' may not respond to '-objectForKey:'338872101#106#119#0(6@58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872030#18#0#18#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)338872101#225#118#0(6@58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872030#18#0#18#0#0"0(22@37"'NSArray' may not respond to '-alloc'338872101#660#110#0(6@58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872030#54#0#54#0#26"'*' may not respond to '*'0(0#0#58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m8624222560#1813"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv6 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScores.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoresViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338872101.130752
+e338872101.233079
+r0
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoresViewController.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:9:
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController viewDidLoad]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: '_sharedDirector' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: (Each undeclared identifier is reported only once
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: for each function it appears in.)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: 'Director' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: 'SoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:25: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadGlobalScores]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:46: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:47: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadLocalScores]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:72: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:73: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadMainMenu]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:80: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:81: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:83: error: '_sharedDirector' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController tableView:cellForRowAtIndexPath:]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'HighScoreRecord' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'record1' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: expected expression before ')' token
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: 'record2' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: expected expression before ')' token
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController getHighestScore]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'HighScoreRecord' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'record1' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: expected expression before ')' token
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:199: warning: control reaches end of non-void function
+lSLF07#2@80"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m338872101#338872101#0(4158"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:9:/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController viewDidLoad]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: '_sharedDirector' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: (Each undeclared identifier is reported only once/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: for each function it appears in.)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: 'Director' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: 'SoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:25: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadGlobalScores]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:46: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:47: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadLocalScores]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:72: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:73: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadMainMenu]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:80: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:81: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:83: error: '_sharedDirector' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController tableView:cellForRowAtIndexPath:]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'HighScoreRecord' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'record1' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: expected expression before ')' token/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: 'record2' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: expected expression before ')' token/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController getHighestScore]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'HighScoreRecord' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'record1' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: expected expression before ')' token/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:199: warning: control reaches end of non-void function22(4@44"HighScoreRecord.h: No such file or directory338872101#98#132#2(7@94"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m338872101#18446744073709551615#0#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#9#0#9#0#0"0(13@120"HighScoreRecord.h: No such file or directory in /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872101#18446744073709551615#0#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#0"0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#28"*: No such file or directory0(4@57"'_sharedDirector' undeclared (first use in this function)338872101#359#142#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#21#0#21#0#43"'*' undeclared (first use in this function)0(4@50"'Director' undeclared (first use in this function)338872101#753#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#21#0#21#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#888#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#22#0#22#0#43"'*' undeclared (first use in this function)0(4@54"'SoundManager' undeclared (first use in this function)338872101#1034#139#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#22#0#22#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#1173#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#25#0#25#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#1442#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#46#0#46#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#1588#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#47#0#47#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#1856#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#72#0#72#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#2002#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#73#0#73#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#2267#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#80#0#80#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#2413#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#81#0#81#0#43"'*' undeclared (first use in this function)0(4@57"'_sharedDirector' undeclared (first use in this function)338872101#2548#142#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#83#0#83#0#43"'*' undeclared (first use in this function)0(4@57"'HighScoreRecord' undeclared (first use in this function)338872101#2840#143#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#110#0#110#0#43"'*' undeclared (first use in this function)0(4@49"'record1' undeclared (first use in this function)338872101#2983#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#110#0#110#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token338872101#3118#122#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#110#0#110#0#19"expected * before *0(4@49"'record2' undeclared (first use in this function)338872101#3240#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#111#0#111#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token338872101#3375#122#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#111#0#111#0#19"expected * before *0(4@57"'HighScoreRecord' undeclared (first use in this function)338872101#3630#143#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#197#0#197#0#43"'*' undeclared (first use in this function)0(4@49"'record1' undeclared (first use in this function)338872101#3773#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#197#0#197#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token338872101#3908#122#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#197#0#197#0#19"expected * before *0(22@40"Control reaches end of non-void function338872101#4030#128#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#199#0#199#0#40"control reaches end of non-void function0(0#0#72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m7162247752870487040#1841"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv6 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/HighScoresViewController.o1#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/LeaderboardAppDelegate.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338872100.939274
+e338872101.130637
+r0
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/LeaderboardAppDelegate.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:10:
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m: In function '-[LeaderboardAppDelegate dealloc]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: 'viewController' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: (Each undeclared identifier is reported only once
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: for each function it appears in.)
+o{standard input}:123:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"
+o{standard input}:123:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:122:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"
+o{standard input}:122:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L4"
+o{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"
+o{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L2"
+o{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+lSLF07#2@78"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338872100#338872101#0(2163"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:10:/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m: In function '-[LeaderboardAppDelegate dealloc]':/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: 'viewController' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: (Each undeclared identifier is reported only once/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: for each function it appears in.){standard input}:123:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"{standard input}:123:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:122:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"{standard input}:122:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L4"{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L2"{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12(4@44"HighScoreRecord.h: No such file or directory338872101#97#132#2(7@92"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338872101#18446744073709551615#0#0(6@70"/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338866620#10#0#10#0#0"0(13@120"HighScoreRecord.h: No such file or directory in /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872101#18446744073709551615#0#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#0"0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#28"*: No such file or directory0(4@56"'viewController' undeclared (first use in this function)338872101#350#139#0(6@70"/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338866620#82#0#82#0#43"'*' undeclared (first use in this function)0(0#0#70"/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m8623746112#1837"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv6 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/LeaderboardAppDelegate.o1#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/LeaderboardViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/main.o /Users/faizanaziz/Desktop/Leaderboard/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338872100.937957
+e338872101.132101
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/main.o
+x/Users/faizanaziz/Desktop/Leaderboard/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/faizanaziz/Desktop/Leaderboard/main.m338872100#338872101#0(0"0(0#0#44"/Users/faizanaziz/Desktop/Leaderboard/main.m8624008960#1793"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv6 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/main.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoreCell.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338872101.486896
+e338872101.596314
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoreCell.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m338872101#338872101#0(0"0(0#0#61"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m8614929056#1819"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv7 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoreCell.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoreRecord.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreRecord.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScores.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338872101.505962
+e338872101.593462
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScores.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores addNewHighScore:]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: 'NSNumber' may not respond to '-objectForKey:'
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: (Messages without a matching method signature
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: will be assumed to return 'id' and accept
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: '...' as arguments.)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores clearLocalHighScores]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:54: warning: 'NSArray' may not respond to '-alloc'
+lSLF07#2@66"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872101#338872101#0(770"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores addNewHighScore:]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: 'NSNumber' may not respond to '-objectForKey:'/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: (Messages without a matching method signature/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: will be assumed to return 'id' and accept/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:18: warning: '...' as arguments.)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m: In function '+[HighScores clearLocalHighScores]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m:54: warning: 'NSArray' may not respond to '-alloc'3(22@46"'NSNumber' may not respond to '-objectForKey:'338872101#106#119#0(6@58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872030#18#0#18#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)338872101#225#118#0(6@58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872030#18#0#18#0#0"0(22@37"'NSArray' may not respond to '-alloc'338872101#660#110#0(6@58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m338872030#54#0#54#0#26"'*' may not respond to '*'0(0#0#58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m8625460544#1813"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv7 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScores.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoresViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338872101.350527
+e338872101.505873
+r0
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoresViewController.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:9:
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController viewDidLoad]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: '_sharedDirector' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: (Each undeclared identifier is reported only once
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: for each function it appears in.)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: 'Director' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: 'SoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:25: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadGlobalScores]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:46: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:47: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadLocalScores]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:72: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:73: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadMainMenu]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:80: error: '_sharedSoundManager' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:81: error: 'soundVal' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:83: error: '_sharedDirector' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController tableView:cellForRowAtIndexPath:]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'HighScoreRecord' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'record1' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: expected expression before ')' token
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: 'record2' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: expected expression before ')' token
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController getHighestScore]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'HighScoreRecord' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'record1' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: expected expression before ')' token
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:199: warning: control reaches end of non-void function
+lSLF07#2@80"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m338872101#338872101#0(4158"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:9:/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController viewDidLoad]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: '_sharedDirector' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: (Each undeclared identifier is reported only once/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: for each function it appears in.)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:21: error: 'Director' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:22: error: 'SoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:25: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadGlobalScores]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:46: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:47: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadLocalScores]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:72: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:73: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController loadMainMenu]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:80: error: '_sharedSoundManager' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:81: error: 'soundVal' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:83: error: '_sharedDirector' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController tableView:cellForRowAtIndexPath:]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'HighScoreRecord' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: 'record1' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:110: error: expected expression before ')' token/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: 'record2' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:111: error: expected expression before ')' token/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m: In function '-[HighScoresViewController getHighestScore]':/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'HighScoreRecord' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: 'record1' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:197: error: expected expression before ')' token/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m:199: warning: control reaches end of non-void function22(4@44"HighScoreRecord.h: No such file or directory338872101#98#132#2(7@94"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m338872101#18446744073709551615#0#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#9#0#9#0#0"0(13@120"HighScoreRecord.h: No such file or directory in /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872101#18446744073709551615#0#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#0"0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#28"*: No such file or directory0(4@57"'_sharedDirector' undeclared (first use in this function)338872101#359#142#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#21#0#21#0#43"'*' undeclared (first use in this function)0(4@50"'Director' undeclared (first use in this function)338872101#753#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#21#0#21#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#888#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#22#0#22#0#43"'*' undeclared (first use in this function)0(4@54"'SoundManager' undeclared (first use in this function)338872101#1034#139#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#22#0#22#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#1173#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#25#0#25#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#1442#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#46#0#46#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#1588#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#47#0#47#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#1856#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#72#0#72#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#2002#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#73#0#73#0#43"'*' undeclared (first use in this function)0(4@61"'_sharedSoundManager' undeclared (first use in this function)338872101#2267#146#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#80#0#80#0#43"'*' undeclared (first use in this function)0(4@50"'soundVal' undeclared (first use in this function)338872101#2413#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#81#0#81#0#43"'*' undeclared (first use in this function)0(4@57"'_sharedDirector' undeclared (first use in this function)338872101#2548#142#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#83#0#83#0#43"'*' undeclared (first use in this function)0(4@57"'HighScoreRecord' undeclared (first use in this function)338872101#2840#143#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#110#0#110#0#43"'*' undeclared (first use in this function)0(4@49"'record1' undeclared (first use in this function)338872101#2983#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#110#0#110#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token338872101#3118#122#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#110#0#110#0#19"expected * before *0(4@49"'record2' undeclared (first use in this function)338872101#3240#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#111#0#111#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token338872101#3375#122#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#111#0#111#0#19"expected * before *0(4@57"'HighScoreRecord' undeclared (first use in this function)338872101#3630#143#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#197#0#197#0#43"'*' undeclared (first use in this function)0(4@49"'record1' undeclared (first use in this function)338872101#3773#135#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#197#0#197#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token338872101#3908#122#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#197#0#197#0#19"expected * before *0(22@40"Control reaches end of non-void function338872101#4030#128#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m304334886#199#0#199#0#40"control reaches end of non-void function0(0#0#72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m8600340416#1841"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv7 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/HighScoresViewController.o1#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/LeaderboardAppDelegate.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338872101.294544
+e338872101.350429
+r0
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/LeaderboardAppDelegate.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:10:
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m: In function '-[LeaderboardAppDelegate dealloc]':
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: 'viewController' undeclared (first use in this function)
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: (Each undeclared identifier is reported only once
+o/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: for each function it appears in.)
+o{standard input}:118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"
+o{standard input}:118:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:117:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"
+o{standard input}:117:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:116:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L4"
+o{standard input}:116:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:115:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"
+o{standard input}:115:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:114:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L2"
+o{standard input}:114:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+lSLF07#2@78"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338872101#338872101#0(2163"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:10:/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h:11:28: error: HighScoreRecord.h: No such file or directory/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m: In function '-[LeaderboardAppDelegate dealloc]':/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: 'viewController' undeclared (first use in this function)/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: (Each undeclared identifier is reported only once/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m:82: error: for each function it appears in.){standard input}:118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L6"{standard input}:118:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:117:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"{standard input}:117:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:116:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L4"{standard input}:116:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:115:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L3"{standard input}:115:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:114:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L2"{standard input}:114:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12(4@44"HighScoreRecord.h: No such file or directory338872101#97#132#2(7@92"In file included from /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338872101#18446744073709551615#0#0(6@70"/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338866620#10#0#10#0#0"0(13@120"HighScoreRecord.h: No such file or directory in /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872101#18446744073709551615#0#0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#0"0(6@72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h338872092#11#0#11#0#28"*: No such file or directory0(4@56"'viewController' undeclared (first use in this function)338872101#350#139#0(6@70"/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m338866620#82#0#82#0#43"'*' undeclared (first use in this function)0(0#0#70"/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m8612950144#1837"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv7 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/LeaderboardAppDelegate.o1#
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/LeaderboardViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/main.o /Users/faizanaziz/Desktop/Leaderboard/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338872101.235836
+e338872101.294438
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/main.o
+x/Users/faizanaziz/Desktop/Leaderboard/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/faizanaziz/Desktop/Leaderboard/main.m338872101#338872101#0(0"0(0#0#44"/Users/faizanaziz/Desktop/Leaderboard/main.m8623887584#1793"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv7 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/main.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib
+s338872097.563262
+e338872098.152739
+r1
+xCompileXIB
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@36"CompileXIB Classes/HighScoreCell.xib338872097#338872098#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#63"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib8625503360#557"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScoreCell.nib /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+s338872097.041696
+e338872099.073154
+r1
+xCompileXIB
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@33"CompileXIB Classes/HighScores.xib338872097#338872099#0(252"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib8624098688#551"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScores.nib /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/LeaderboardViewController.xib
+r0
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+s338872097.040980
+e338872097.563162
+r1
+xCompileXIB
+x/Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338872097#338872097#0(0"0(0#0#52"/Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib8624360768#543"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/MainWindow.nib /Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScoresTop.png Classes/HighScoresTop.png
+s338872098.152846
+e338872098.383092
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScoresTop.png
+xClasses/HighScoresTop.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/HighScoresTop.png Classes/HighScoresTop.png338872098#338872098#0(0"0(0#0#63"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresTop.png8625481728#583"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresTop.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/HighScoresTop.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/bg.png Classes/bg.png
+s338872098.383194
+e338872098.433289
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/bg.png
+xClasses/bg.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/bg.png Classes/bg.png338872098#338872098#0(0"0(0#0#52"/Users/faizanaziz/Desktop/Leaderboard/Classes/bg.png8624361568#561"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/bg.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/bg.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobal1.png Classes/hsglobal1.png
+s338872098.433479
+e338872098.469685
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobal1.png
+xClasses/hsglobal1.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hsglobal1.png Classes/hsglobal1.png338872098#338872098#0(0"0(0#0#59"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobal1.png8623026016#575"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobal1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobal1.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobalbig1.png Classes/hsglobalbig1.png
+s338872098.469778
+e338872098.528163
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobalbig1.png
+xClasses/hsglobalbig1.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hsglobalbig1.png Classes/hsglobalbig1.png338872098#338872098#0(0"0(0#0#62"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobalbig1.png8619612800#581"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobalbig1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsglobalbig1.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocal1.png Classes/hslocal1.png
+s338872098.528259
+e338872098.568361
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocal1.png
+xClasses/hslocal1.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hslocal1.png Classes/hslocal1.png338872098#338872098#0(0"0(0#0#58"/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocal1.png8610717472#573"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hslocal1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocal1.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocalbig1.png Classes/hslocalbig1.png
+s338872098.568460
+e338872098.625034
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocalbig1.png
+xClasses/hslocalbig1.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hslocalbig1.png Classes/hslocalbig1.png338872098#338872098#0(0"0(0#0#61"/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocalbig1.png8625084896#579"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hslocalbig1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hslocalbig1.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenu1.png Classes/hsmenu1.png
+s338872098.625129
+e338872099.098904
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenu1.png
+xClasses/hsmenu1.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hsmenu1.png Classes/hsmenu1.png338872098#338872099#0(0"0(0#0#57"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenu1.png8624447936#571"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenu1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenu1.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenubig1.png Classes/hsmenubig1.png
+s338872099.073253
+e338872099.137304
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenubig1.png
+xClasses/hsmenubig1.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hsmenubig1.png Classes/hsmenubig1.png338872099#338872099#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenubig1.png8619645792#577"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenubig1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsmenubig1.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsname.png Classes/hsname.png
+s338872099.099003
+e338872099.125043
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsname.png
+xClasses/hsname.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hsname.png Classes/hsname.png338872099#338872099#0(0"0(0#0#56"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsname.png8625458848#569"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hsname.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsname.png0#
+
+CCopyPNGFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsscore.png Classes/hsscore.png
+s338872099.125141
+e338872099.290481
+r1
+xCopyPNGFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsscore.png
+xClasses/hsscore.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/Leaderboard.app/hsscore.png Classes/hsscore.png338872099#338872099#0(0"0(0#0#57"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsscore.png8624998464#571"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/faizanaziz/Desktop/Leaderboard/Classes/hsscore.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/hsscore.png0#
+
+CCpResource build/Debug-iphoneos/Leaderboard.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s338872096.932827
+e338872097.040894
+r1
+xCpResource
+xbuild/Debug-iphoneos/Leaderboard.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist338872096#338872097#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist4923330986020728832#496"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app0#
+
+CCreateUniversalBinary /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Leaderboard normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app.dSYM /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Leaderboard
+r0
+
+CLd /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv6/Leaderboard normal armv6
+r0
+
+CLd /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Objects-normal/armv7/Leaderboard normal armv7
+r0
+
+CProcessInfoPlistFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Info.plist Leaderboard-Info.plist
+s338872096.990576
+e338872097.019157
+r1
+xProcessInfoPlistFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Info.plist
+xLeaderboard-Info.plist
+lSLF07#2@30"Process Leaderboard-Info.plist338872096#338872097#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Leaderboard-Info.plist8625478976#574"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Leaderboard-Info.plist -genpkginfo /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/ResourceRules.plist -o /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/Info.plist0#
+
+CProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338872099.290663
+e338872100.865866
+r1
+xProcessPCH
+x/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch.gch
+xLeaderboard_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Leaderboard_Prefix.pch338872099#338872100#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch8624243648#1688"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv6 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -c /Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch -o /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-aizunvnhlzjebzctawndeiozmdfe/Leaderboard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338872099.291852
+e338872100.937820
+r1
+xProcessPCH
+x/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch.gch
+xLeaderboard_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Leaderboard_Prefix.pch338872099#338872100#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch8623540128#1688"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources/armv7 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/DerivedSources -c /Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch -o /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdkjhwfoipaogebthrhuheqmgeqf/Leaderboard_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/faizanaziz/Library/MobileDevice/Provisioning Profiles/68FD5E03-4FE6-4B24-83C1-18112164AC02.mobileprovision" /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/embedded.mobileprovision
+s338872101.596427
+e338872101.597758
+r1
+xProcessProductPackaging
+x/Users/faizanaziz/Library/MobileDevice/Provisioning Profiles/68FD5E03-4FE6-4B24-83C1-18112164AC02.mobileprovision
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/faizanaziz/Library/MobileDevice/Provisioning Profiles/68FD5E03-4FE6-4B24-83C1-18112164AC02.mobileprovision" build/Debug-iphoneos/Leaderboard.app/embedded.mobileprovision338872101#338872101#0(0"0(0#0#99"/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/embedded.mobileprovision8623582112#430"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/faizanaziz/Library/MobileDevice/Provisioning Profiles/68FD5E03-4FE6-4B24-83C1-18112164AC02.mobileprovision" -o /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard.xcent
+s338872101.597829
+e338872101.630623
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard.xcent
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard.xcent338872101#338872101#0(0"0(0#0#112"/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard.xcent8622552352#442"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphoneos/Leaderboard.build/Leaderboard.xcent0#
+
+CTouch /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphoneos/Leaderboard.app
+r0
+

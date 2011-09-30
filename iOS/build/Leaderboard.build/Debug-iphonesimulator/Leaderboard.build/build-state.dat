@@ -1,0 +1,1662 @@
+TLeaderboard
+v7
+r0
+t339100804.360129
+cCheck dependencies
+cProcessInfoPlistFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Info.plist Leaderboard-Info.plist
+cCompileXIB /Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+cCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+cProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main.o /Users/faizanaziz/Desktop/Leaderboard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/LeaderboardAppDelegate.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoresViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScores.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard normal i386
+cGenerateDSYMFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app.dSYM /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard
+cTouch /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/tree.h
+c000000004CC10DA50000000000008F14
+t1287720357
+s36628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004CC10DA50000000000003F47
+t1287720357
+s16199
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004CC10DA50000000000004BF8
+t1287720357
+s19448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libxml2.dylib
+c000000004CC10DA50000000000122A50
+t1287720357
+s1190480
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXML.h
+c000000004D5A5BA2000000000000073A
+t1297767330
+s1850
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLDocument.h
+c000000004D5A5BA20000000000000807
+t1297767330
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLDocument.m
+c000000004D5A5BA20000000000000C5C
+t1297767330
+s3164
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLElement.h
+c000000004D5A5BA200000000000006B0
+t1297767330
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLElement.m
+c000000004D5A5BA200000000000042D0
+t1297767330
+s17104
+i"DDXMLElement.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLNode.h
+c000000004D5A5BA20000000000001392
+t1297767330
+s5010
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLNode.m
+c000000004D5A5BA2000000000000B885
+t1297767330
+s47237
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLPrivate.h
+c000000004D5A5BA2000000000000098B
+t1297767330
+s2443
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.h
+c000000004E82AE840000000000000242
+t1317187204
+s578
+i<Foundation/Foundation.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m
+c000000004E82AE80000000000000018C
+t1317187200
+s396
+i"HighScoreCell.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib
+c000000004E82AEAF0000000000005B68
+t1317187247
+s23400
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.h
+c000000004E860D01000000000000036A
+t1317408001
+s874
+i<Foundation/Foundation.h>
+i"DDXML.h"
+i"DDXMLElementAdditions.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m
+c000000004E84C24A0000000000001268
+t1317323338
+s4712
+i"HighScores.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+c000000004E84BC960000000000006F02
+t1317321878
+s28418
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresTop.png
+c000000004C5111E600000000000010A2
+t1280381414
+s4258
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.h
+c000000004E84BC210000000000000224
+t1317321761
+s548
+i<UIKit/UIKit.h>
+i"HighScores.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m
+c000000004E84C2C70000000000000F71
+t1317323463
+s3953
+i"HighScoresViewController.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.h
+c000000004E8481420000000000000264
+t1317306690
+s612
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.m
+c000000004E8480E50000000000000C1D
+t1317306597
+s3101
+i"DDXMLElementAdditions.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.h
+c000000004E8480E500000000000000F1
+t1317306597
+s241
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.m
+c000000004E8480E500000000000001CE
+t1317306597
+s462
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXML.h
+c000000004E8480E50000000000001435
+t1317306597
+s5173
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.h
+c000000004E8480E50000000000000807
+t1317306597
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.m
+c000000004E84822A0000000000000CCB
+t1317306922
+s3275
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.h
+c000000004E8480E500000000000006B0
+t1317306597
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.m
+c000000004E8480E50000000000004E1C
+t1317306597
+s19996
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.h
+c000000004E8480E50000000000000F69
+t1317306597
+s3945
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.m
+c000000004E8480E5000000000000E65A
+t1317306597
+s58970
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Private/DDXMLPrivate.h
+c000000004E8480E50000000000001F34
+t1317306597
+s7988
+i"DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.h
+c000000004E828FD500000000000001A0
+t1317179349
+s416
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m
+c000000004E8296C70000000000000AFA
+t1317181127
+s2810
+i"LeaderboardAppDelegate.h"
+i"HighScoresViewController.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/NSStringAdditions.h
+c000000004D5A5BA200000000000000FD
+t1297767330
+s253
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/NSStringAdditions.m
+c000000004D5A5BA200000000000001DD
+t1297767330
+s477
+i"NSStringAdditions.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/NSXMLElementAdditions.h
+c000000004D5A5BA2000000000000076B
+t1297767330
+s1899
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/NSXMLElementAdditions.m
+c000000004D5A5BA200000000000019C5
+t1297767330
+s6597
+i"NSXMLElementAdditions.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/bg.png
+c000000004C089A4900000000000000E8
+t1275632201
+s232
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobal1.png
+c000000004C089A490000000000000C54
+t1275632201
+s3156
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobalbig1.png
+c000000004C089A480000000000000DD1
+t1275632200
+s3537
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocal1.png
+c000000004C089A480000000000000BE4
+t1275632200
+s3044
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocalbig1.png
+c000000004C089A490000000000000D4F
+t1275632201
+s3407
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenu1.png
+c000000004C089A480000000000000B01
+t1275632200
+s2817
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenubig1.png
+c000000004C089A480000000000000C47
+t1275632200
+s3143
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsname.png
+c000000004C089A49000000000000022E
+t1275632201
+s558
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/hsscore.png
+c000000004C089A4800000000000002A1
+t1275632200
+s673
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/HEAD
+c000000004E8480E50000000000000017
+t1317306597
+s23
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/config
+c000000004E8480E50000000000000116
+t1317306597
+s278
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/description
+c000000004E8480DA0000000000000049
+t1317306586
+s73
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/applypatch-msg.sample
+c000000004E8480DA00000000000001C4
+t1317306586
+s452
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/commit-msg.sample
+c000000004E8480DA0000000000000380
+t1317306586
+s896
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/post-commit.sample
+c000000004E8480DA00000000000000A0
+t1317306586
+s160
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/post-receive.sample
+c000000004E8480DA0000000000000228
+t1317306586
+s552
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/post-update.sample
+c000000004E8480DA00000000000000BD
+t1317306586
+s189
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/pre-applypatch.sample
+c000000004E8480DA000000000000018E
+t1317306586
+s398
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/pre-commit.sample
+c000000004E8480DA000000000000062A
+t1317306586
+s1578
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/pre-rebase.sample
+c000000004E8480DA0000000000001357
+t1317306586
+s4951
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/prepare-commit-msg.sample
+c000000004E8480DA00000000000004D7
+t1317306586
+s1239
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/hooks/update.sample
+c000000004E8480DA0000000000000E1B
+t1317306586
+s3611
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/index
+c000000004E8480E500000000000009E0
+t1317306597
+s2528
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/info/exclude
+c000000004E8480DA00000000000000FA
+t1317306586
+s250
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/logs/HEAD
+c000000004E8480E500000000000000B4
+t1317306597
+s180
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/logs/refs/heads/master
+c000000004E8480E500000000000000B4
+t1317306597
+s180
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/objects/pack/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.idx
+c000000004E8480E50000000000001A48
+t1317306597
+s6728
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/objects/pack/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.pack
+c000000004E8480E50000000000075CA1
+t1317306597
+s482465
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/packed-refs
+c000000004E8480E5000000000000005E
+t1317306597
+s94
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/refs/heads/master
+c000000004E8480E50000000000000029
+t1317306597
+s41
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.git/refs/remotes/origin/HEAD
+c000000004E8480E50000000000000020
+t1317306597
+s32
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.gitignore
+c000000004E8480E50000000000000029
+t1317306597
+s41
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/.hgignore
+c000000004E8480E50000000000000030
+t1317306597
+s48
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/Additions/DDXMLElementAdditions.h
+c000000004E8480E50000000000000264
+t1317306597
+s612
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/Additions/DDXMLElementAdditions.m
+c000000004E8480E50000000000000C1D
+t1317306597
+s3101
+i"DDXMLElementAdditions.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/Categories/NSString+DDXML.h
+c000000004E8480E500000000000000F1
+t1317306597
+s241
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/Categories/NSString+DDXML.m
+c000000004E8480E500000000000001CE
+t1317306597
+s462
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXML.h
+c000000004E8480E50000000000001435
+t1317306597
+s5173
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLDocument.h
+c000000004E8480E50000000000000807
+t1317306597
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLDocument.m
+c000000004E8480E50000000000000CCB
+t1317306597
+s3275
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLElement.h
+c000000004E8480E500000000000006B0
+t1317306597
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLElement.m
+c000000004E8480E50000000000004E1C
+t1317306597
+s19996
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLNode.h
+c000000004E8480E50000000000000F69
+t1317306597
+s3945
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLNode.m
+c000000004E8480E5000000000000E65A
+t1317306597
+s58970
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/Private/DDXMLPrivate.h
+c000000004E8480E50000000000001F34
+t1317306597
+s7988
+i"DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/AppDelegate.h
+c000000004E8480E50000000000000046
+t1317306597
+s70
+i<Cocoa/Cocoa.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/AppDelegate.m
+c000000004E8480E500000000000000CF
+t1317306597
+s207
+i"AppDelegate.h"
+i"DDXML.h"
+i"DDXMLTesting.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/DDXMLTesting.h
+c000000004E8480E5000000000000005A
+t1317306597
+s90
+i<Cocoa/Cocoa.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/DDXMLTesting.m
+c000000004E8480E5000000000001073E
+t1317306597
+s67390
+i"DDXMLTesting.h"
+i"DDXML.h"
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/English.lproj/InfoPlist.strings
+c000000004E8480E5000000000000005C
+t1317306597
+s92
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/English.lproj/MainMenu.xib
+c000000004E8480E5000000000001FE4A
+t1317306597
+s130634
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/Info.plist
+c000000004E8480E50000000000000357
+t1317306597
+s855
+
+N/Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/main.m
+c000000004E8480E50000000000000101
+t1317306597
+s257
+i<Cocoa/Cocoa.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch
+c000000004E82789600000000000000BF
+t1317173398
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+c000000004E82968200000000000045FE
+t1317181058
+s17918
+
+N/Users/faizanaziz/Desktop/Leaderboard/SystemConfiguration.framework/SystemConfiguration
+c000000004E847A3D00000000000B0C10
+t1317304893
+s723984
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app
+t1317408003
+s612
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app.dSYM
+t1317408003
+s102
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/.gitignore
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/.hgignore
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/HEAD
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/HighScoreCell.nib
+t1317187249
+s2098
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/HighScores.nib
+t1317321880
+s2255
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/HighScoresTop.png
+t1317180822
+s4258
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Info.plist
+t1317180822
+s607
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard
+t1317408003
+s109464
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/MainWindow.nib
+t1317181073
+s988
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/PkgInfo
+t1317180822
+s8
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/applypatch-msg.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/bg.png
+t1317180822
+s232
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/commit-msg.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/config
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/description
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/exclude
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hsglobal1.png
+t1317180822
+s3156
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hsglobalbig1.png
+t1317180822
+s3537
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hslocal1.png
+t1317180822
+s3044
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hslocalbig1.png
+t1317180822
+s3407
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hsmenu1.png
+t1317180822
+s2817
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hsmenubig1.png
+t1317180822
+s3143
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hsname.png
+t1317180822
+s558
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/hsscore.png
+t1317180822
+s673
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/index
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/master
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.idx
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.pack
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/packed-refs
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/post-commit.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/post-receive.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/post-update.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/pre-applypatch.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/pre-commit.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/pre-rebase.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/prepare-commit-msg.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/update.sample
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o
+t1317307026
+s18932
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o
+t1317306691
+s48232
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o
+t1317306691
+s12496
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o
+t1317306691
+s99004
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLTesting.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoreCell.o
+t1317305002
+s41396
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScores.o
+t1317408003
+s25916
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoresViewController.o
+t1317408003
+s65904
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/Leaderboard.LinkFileList
+c000000004E84B70800000000000004E6
+t1317320456
+s1254
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/LeaderboardAppDelegate.o
+t1317408002
+s51712
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o
+t1317306691
+s7352
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSStringAdditions.o
+t1317305003
+s7428
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSXMLElementAdditions.o
+t1317305003
+s29848
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main-813849117F529B36.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main.o
+t1317305002
+s6300
+
+N/Users/faizanaziz/Desktop/Leaderboard/libidn.a
+c000000004D5A5BA2000000000013C63C
+t1297767330
+s1295932
+
+N/Users/faizanaziz/Desktop/Leaderboard/libresolv.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/faizanaziz/Desktop/Leaderboard/main.m
+c000000004E827896000000000000016D
+t1317173398
+s365
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScores.h
+c000000004E860F76000000000000036A
+t1317408630
+s874
+i<Foundation/Foundation.h>
+i"DDXML.h"
+i"DDXMLElementAdditions.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScores.m
+c000000004E860F760000000000001268
+t1317408630
+s4712
+i"HighScores.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScores.xib
+c000000004E860F760000000000006F02
+t1317408630
+s28418
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScoresViewController.h
+c000000004E861094000000000000023C
+t1317408916
+s572
+i<UIKit/UIKit.h>
+i"HighScores.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScoresViewController.m
+c000000004E86109B0000000000000FEB
+t1317408923
+s4075
+i"HighScoresViewController.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/Additions/DDXMLElementAdditions.h
+c000000004E860F760000000000000264
+t1317408630
+s612
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/Additions/DDXMLElementAdditions.m
+c000000004E860F760000000000000C1D
+t1317408630
+s3101
+i"DDXMLElementAdditions.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/Categories/NSString+DDXML.h
+c000000004E860F7600000000000000F1
+t1317408630
+s241
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/Categories/NSString+DDXML.m
+c000000004E860F7600000000000001CE
+t1317408630
+s462
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXML.h
+c000000004E860F760000000000001435
+t1317408630
+s5173
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLDocument.h
+c000000004E860F760000000000000807
+t1317408630
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLDocument.m
+c000000004E860F760000000000000CCB
+t1317408630
+s3275
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLElement.h
+c000000004E860F7600000000000006B0
+t1317408630
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLElement.m
+c000000004E860F760000000000004E1C
+t1317408630
+s19996
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLNode.h
+c000000004E860F760000000000000F69
+t1317408630
+s3945
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLNode.m
+c000000004E860F76000000000000E65A
+t1317408630
+s58970
+i"DDXMLPrivate.h"
+i"NSString+DDXML.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/Private/DDXMLPrivate.h
+c000000004E860F760000000000001F34
+t1317408630
+s7988
+i"DDXML.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/LeaderboardAppDelegate.h
+c000000004E860F7600000000000001A0
+t1317408630
+s416
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/LeaderboardAppDelegate.m
+c000000004E860F760000000000000AFA
+t1317408630
+s2810
+i"LeaderboardAppDelegate.h"
+i"HighScoresViewController.h"
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Leaderboard_Prefix.pch
+c000000004E860F7600000000000000BF
+t1317408630
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/MainWindow.xib
+c000000004E860F7600000000000045FE
+t1317408630
+s17918
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app
+t1317408630
+s612
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app.dSYM
+t1317408630
+s102
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/HighScores.nib
+t1317408630
+s2255
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/Info.plist
+t1317408630
+s607
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard
+t1317408630
+s109464
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/MainWindow.nib
+t1317408630
+s988
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/PkgInfo
+t1317408630
+s8
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o
+t1317408630
+s18932
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o
+t1317408630
+s48232
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o
+t1317408630
+s12496
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o
+t1317408630
+s99004
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScores.o
+t1317408630
+s25916
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoresViewController.o
+t1317408630
+s65904
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/Leaderboard.LinkFileList
+c000000004E860F7600000000000004E6
+t1317408630
+s1254
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/LeaderboardAppDelegate.o
+t1317408630
+s51712
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o
+t1317408630
+s7352
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main.o
+t1317408630
+s6300
+
+N/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/main.m
+c000000004E860F76000000000000016D
+t1317408630
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-dpchxvnsgnbfgedpftbjtisfgbnb/Leaderboard_Prefix.pch.gch
+t1317304897
+s15453392
+
+N/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-egqnwdaqesttspgrnryusaketnki/Leaderboard_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdxbuhwgurejhccbtikeixrffqgd/Leaderboard_Prefix.pch.gch
+t1317180824
+s15453392
+
+N/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch.gch
+t1317305002
+s15453392
+
+NLeaderboard-Info.plist
+c000000004E860F76000000000000038D
+t1317408630
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339100804#339100804#0(0"0(0#1#0"8642022208#0"0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/AppDelegate.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLDocument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997803.024566
+e338997803.246194
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLDocument.m338997803#338997803#0(0"0(0#0#61"/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLDocument.m8647740960#2155"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLDocument.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338999826.770809
+e338999826.917865
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.m338999826#338999826#0(0"0(0#0#69"/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.m8645196896#2163"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLDocument.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLDocument.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLElement.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997803.167467
+e338997803.405036
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLElement.m338997803#338997803#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLElement.m8639582784#2153"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLElement.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338999491.428432
+e338999491.623127
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.m338999491#338999491#0(0"0(0#0#68"/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.m8651191360#2161"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLElement.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElement.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/Additions/DDXMLElementAdditions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338999491.232692
+e338999491.354379
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.m338999491#338999491#0(0"0(0#0#87"/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.m8651903616#2189"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Additions/DDXMLElementAdditions.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLElementAdditions.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/Additions/DDXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/DDXMLNode.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997803.246295
+e338997803.615703
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLNode.m338997803#338997803#0(0"0(0#0#57"/Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLNode.m8601342208#2147"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/DDXMLNode.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338999491.464707
+e338999491.762990
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.m338999491#338999491#0(0"0(0#0#65"/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.m8650838592#2155"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/DDXMLNode.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLNode.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/DDXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/DDXMLTesting.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/DDXMLTesting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoreCell.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997802.839906
+e338997802.951062
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoreCell.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m338997802#338997802#0(0"0(0#0#61"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m8637301504#2155"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoreCell.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScores.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScores.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScores.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339100802.850435
+e339100803.013224
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScores.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m339100802#339100803#0(0"0(0#0#58"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m8641657632#2149"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScores.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoresViewController.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScoresViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoresViewController.o /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339100802.553211
+e339100803.030136
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoresViewController.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m339100802#339100803#0(0"0(0#0#72"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m8612871136#2177"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresViewController.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/HighScoresViewController.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/LeaderboardAppDelegate.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/LeaderboardAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/LeaderboardAppDelegate.o /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339100802.507414
+e339100802.850327
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/LeaderboardAppDelegate.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m339100802#339100802#0(0"0(0#0#70"/Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m8624204608#2173"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/LeaderboardAppDelegate.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/LeaderboardAppDelegate.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/KissXML/Categories/NSString+DDXML.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338999491.303437
+e338999491.428325
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.m338999491#338999491#0(0"0(0#0#81"/Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.m8651484224#2176"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/KissXML/Categories/NSString+DDXML.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSString+DDXML.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/KissXML/Categories/NSString+DDXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSStringAdditions.o /Users/faizanaziz/Desktop/Leaderboard/Classes/NSStringAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997803.405150
+e338997803.501857
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSStringAdditions.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/NSStringAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/NSStringAdditions.m338997803#338997803#0(0"0(0#0#65"/Users/faizanaziz/Desktop/Leaderboard/Classes/NSStringAdditions.m8647959104#2163"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/NSStringAdditions.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSStringAdditions.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSXMLElementAdditions.o /Users/faizanaziz/Desktop/Leaderboard/Classes/NSXMLElementAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997802.951168
+e338997803.167305
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSXMLElementAdditions.o
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/NSXMLElementAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/faizanaziz/Desktop/Leaderboard/Classes/NSXMLElementAdditions.m338997802#338997803#0(0"0(0#0#69"/Users/faizanaziz/Desktop/Leaderboard/Classes/NSXMLElementAdditions.m8648488064#2171"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/Classes/NSXMLElementAdditions.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/NSXMLElementAdditions.o0#
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main-813849117F529B36.o /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main-B9843B6026D6EFA4.o /Users/faizanaziz/Desktop/Leaderboard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main.o "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main.o /Users/faizanaziz/Desktop/Leaderboard/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997802.618482
+e338997802.676626
+r1
+xCompileC
+xbuild/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main.o
+x/Users/faizanaziz/Desktop/Leaderboard/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/faizanaziz/Desktop/Leaderboard/main.m338997802#338997802#0(0"0(0#0#44"/Users/faizanaziz/Desktop/Leaderboard/main.m8645560288#2129"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -include /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch -c /Users/faizanaziz/Desktop/Leaderboard/main.m -o /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/main.o0#
+
+CCompileXIB "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/Classes/HighScores.xib"
+r0
+
+CCompileXIB "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/MainWindow.xib"
+r0
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib
+s338880049.228791
+e338880049.656597
+r1
+xCompileXIB
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib
+lSLF07#2@36"CompileXIB Classes/HighScoreCell.xib338880049#338880049#0(0"0(0#0#63"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib8619752512#585"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/HighScoreCell.nib /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoreCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+s339014680.442619
+e339014680.930955
+r1
+xCompileXIB
+x/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib
+lSLF07#2@33"CompileXIB Classes/HighScores.xib339014680#339014680#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib8650427584#579"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/HighScores.nib /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScores.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/Classes/kissxml/UnitTesting/English.lproj/MainMenu.xib
+r0
+
+CCompileXIB /Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+s338873873.074613
+e338873873.440079
+r1
+xCompileXIB
+x/Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338873873#338873873#0(0"0(0#0#52"/Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib8623938592#571"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/MainWindow.nib /Users/faizanaziz/Desktop/Leaderboard/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Info.plist Classes/kissxml/UnitTesting/Info.plist
+r0
+
+CCopyStringsFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/English.lproj/InfoPlist.strings Classes/kissxml/UnitTesting/English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/.gitignore Classes/kissxml/.gitignore
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/.hgignore Classes/kissxml/.hgignore
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/HEAD Classes/kissxml/.git/HEAD
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/HEAD Classes/kissxml/.git/logs/HEAD
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/HEAD Classes/kissxml/.git/refs/remotes/origin/HEAD
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/HighScoresTop.png Classes/HighScoresTop.png
+s338873622.777362
+e338873622.819508
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/HighScoresTop.png
+xClasses/HighScoresTop.png
+lSLF07#2@30"Copy Classes/HighScoresTop.png338873622#338873622#0(0"0(0#0#63"/Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresTop.png8623831520#484"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/HighScoresTop.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/applypatch-msg.sample Classes/kissxml/.git/hooks/applypatch-msg.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/bg.png Classes/bg.png
+s338873622.778151
+e338873622.819656
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/bg.png
+xClasses/bg.png
+lSLF07#2@19"Copy Classes/bg.png338873622#338873622#0(0"0(0#0#52"/Users/faizanaziz/Desktop/Leaderboard/Classes/bg.png8623584864#473"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/bg.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/commit-msg.sample Classes/kissxml/.git/hooks/commit-msg.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/config Classes/kissxml/.git/config
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/description Classes/kissxml/.git/description
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/exclude Classes/kissxml/.git/info/exclude
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hsglobal1.png Classes/hsglobal1.png
+s338873622.778865
+e338873622.819784
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hsglobal1.png
+xClasses/hsglobal1.png
+lSLF07#2@26"Copy Classes/hsglobal1.png338873622#338873622#0(0"0(0#0#59"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobal1.png8623310720#480"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobal1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hsglobalbig1.png Classes/hsglobalbig1.png
+s338873622.783230
+e338873622.819919
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hsglobalbig1.png
+xClasses/hsglobalbig1.png
+lSLF07#2@29"Copy Classes/hsglobalbig1.png338873622#338873622#0(0"0(0#0#62"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobalbig1.png8619670720#483"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hsglobalbig1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hslocal1.png Classes/hslocal1.png
+s338873622.785092
+e338873622.820063
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hslocal1.png
+xClasses/hslocal1.png
+lSLF07#2@25"Copy Classes/hslocal1.png338873622#338873622#0(0"0(0#0#58"/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocal1.png8611523072#479"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hslocal1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hslocalbig1.png Classes/hslocalbig1.png
+s338873622.788588
+e338873622.820194
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hslocalbig1.png
+xClasses/hslocalbig1.png
+lSLF07#2@28"Copy Classes/hslocalbig1.png338873622#338873622#0(0"0(0#0#61"/Users/faizanaziz/Desktop/Leaderboard/Classes/hslocalbig1.png8612941216#482"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hslocalbig1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hsmenu1.png Classes/hsmenu1.png
+s338873622.790473
+e338873622.820323
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hsmenu1.png
+xClasses/hsmenu1.png
+lSLF07#2@24"Copy Classes/hsmenu1.png338873622#338873622#0(0"0(0#0#57"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenu1.png8610862464#478"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenu1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hsmenubig1.png Classes/hsmenubig1.png
+s338873622.796599
+e338873622.820456
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hsmenubig1.png
+xClasses/hsmenubig1.png
+lSLF07#2@27"Copy Classes/hsmenubig1.png338873622#338873622#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenubig1.png8610035072#481"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hsmenubig1.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hsname.png Classes/hsname.png
+s338873622.798455
+e338873622.820584
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hsname.png
+xClasses/hsname.png
+lSLF07#2@23"Copy Classes/hsname.png338873622#338873622#0(0"0(0#0#56"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsname.png8605824672#477"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hsname.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/hsscore.png Classes/hsscore.png
+s338873622.820669
+e338873622.826060
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Leaderboard.app/hsscore.png
+xClasses/hsscore.png
+lSLF07#2@24"Copy Classes/hsscore.png338873622#338873622#0(0"0(0#0#57"/Users/faizanaziz/Desktop/Leaderboard/Classes/hsscore.png8626165632#478"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/faizanaziz/Desktop/Leaderboard/Classes/hsscore.png /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/index Classes/kissxml/.git/index
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/master Classes/kissxml/.git/logs/refs/heads/master
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/master Classes/kissxml/.git/refs/heads/master
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.idx Classes/kissxml/.git/objects/pack/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.idx
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.pack Classes/kissxml/.git/objects/pack/pack-42630399cbdb0cc80e8ddc12f16e244507d2352d.pack
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/packed-refs Classes/kissxml/.git/packed-refs
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/post-commit.sample Classes/kissxml/.git/hooks/post-commit.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/post-receive.sample Classes/kissxml/.git/hooks/post-receive.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/post-update.sample Classes/kissxml/.git/hooks/post-update.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/pre-applypatch.sample Classes/kissxml/.git/hooks/pre-applypatch.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/pre-commit.sample Classes/kissxml/.git/hooks/pre-commit.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/pre-rebase.sample Classes/kissxml/.git/hooks/pre-rebase.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/prepare-commit-msg.sample Classes/kissxml/.git/hooks/prepare-commit-msg.sample
+r0
+
+CCpResource build/Debug-iphonesimulator/Leaderboard.app/update.sample Classes/kissxml/.git/hooks/update.sample
+r0
+
+CGenerateDSYMFile "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app.dSYM" "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard"
+r0
+
+CGenerateDSYMFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app.dSYM /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard
+s339100803.137350
+e339100803.219542
+r1
+xGenerateDSYMFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app.dSYM
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Leaderboard.app.dSYM build/Debug-iphonesimulator/Leaderboard.app/Leaderboard339100803#339100803#0(0"0(0#0#93"/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard8606277120#392"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard -o /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app.dSYM0#
+
+CLd "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard" normal i386
+r0
+
+CLd /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard normal i386
+s339100803.030235
+e339100803.137243
+r1
+xLd
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard
+xnormal
+xi386
+lSLF07#2@98"Link /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard339100803#339100803#0(0"0(0#0#0"8640870304#1009"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -L/Users/faizanaziz/Desktop/Leaderboard -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -filelist /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Objects-normal/i386/Leaderboard.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2 -o /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Leaderboard0#
+
+CProcessInfoPlistFile "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app/Info.plist" Leaderboard-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Info.plist Leaderboard-Info.plist
+s338873622.186162
+e338873622.191462
+r1
+xProcessInfoPlistFile
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Info.plist
+xLeaderboard-Info.plist
+lSLF07#2@30"Process Leaderboard-Info.plist338873622#338873622#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Leaderboard-Info.plist8625916608#488"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Leaderboard-Info.plist -genpkginfo /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app/Info.plist0#
+
+CProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-dpchxvnsgnbfgedpftbjtisfgbnb/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997696.005547
+e338997697.237322
+r1
+xProcessPCH
+x/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-dpchxvnsgnbfgedpftbjtisfgbnb/Leaderboard_Prefix.pch.gch
+xLeaderboard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Leaderboard_Prefix.pch338997696#338997697#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch8645322464#1912"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -c /Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch -o /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-dpchxvnsgnbfgedpftbjtisfgbnb/Leaderboard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-egqnwdaqesttspgrnryusaketnki/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdxbuhwgurejhccbtikeixrffqgd/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338873623.052449
+e338873624.632023
+r1
+xProcessPCH
+x/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdxbuhwgurejhccbtikeixrffqgd/Leaderboard_Prefix.pch.gch
+xLeaderboard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Leaderboard_Prefix.pch338873623#338873624#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch8624736352#1872"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -c /Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch -o /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-gdxbuhwgurejhccbtikeixrffqgd/Leaderboard_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch.gch Leaderboard_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338997801.665085
+e338997802.618222
+r1
+xProcessPCH
+x/var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch.gch
+xLeaderboard_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Leaderboard_Prefix.pch338997801#338997802#0(0"0(0#0#60"/Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch8639928672#2018"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-generated-files.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-own-target-headers.hmap -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-all-target-headers.hmap -iquote /Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/Leaderboard-project-headers.hmap -F/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator -F/Users/faizanaziz/Desktop/Leaderboard -I/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources/i386 -I/Users/faizanaziz/Desktop/Leaderboard/build/Leaderboard.build/Debug-iphonesimulator/Leaderboard.build/DerivedSources -c /Users/faizanaziz/Desktop/Leaderboard/Leaderboard_Prefix.pch -o /var/folders/kk/kk487AZSFnSpIu8j+9BzzU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Leaderboard_Prefix-grpzdvqyilzqbdcltgisnksmisqu/Leaderboard_Prefix.pch.gch0#
+
+CTouch "/Users/faizanaziz/Documents/Xcode Projects/github/HighScore/iOS/build/Debug-iphonesimulator/Leaderboard.app"
+r0
+
+CTouch /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app
+s339100803.219635
+e339100803.223179
+r1
+xTouch
+x/Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app
+lSLF07#2@87"Touch /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app339100803#339100803#0(0"0(0#0#0"8601446880#280"    cd /Users/faizanaziz/Desktop/Leaderboard    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/faizanaziz/Desktop/Leaderboard/build/Debug-iphonesimulator/Leaderboard.app0#
+
