@@ -22,8 +22,8 @@
 + (void)clearLocalHighScores;
 
 + (NSString *)highScoresFilePath;
-+ (void)updateGlobalScoresWithArray:(NSMutableArray*)aHighScoresArray completion:(void (^) ())aCompletionBlock;
-+ (void)updateLocalScoresWithArray:(NSMutableArray*)aHighScoresArray completion:(void (^) ())aCompletionBlock;
++ (void)updateGlobalScoresWithArray:(NSMutableArray*)aHighScoresArray completion:(void (^) ())aCompletionBlock;	//Used to get the latest local scores
++ (void)updateLocalScoresWithArray:(NSMutableArray*)aHighScoresArray completion:(void (^) ())aCompletionBlock;	//Used to get the latest glocal scores
 + (void)setShouldContinueToUpdateGlobal:(BOOL)aValue;
 
 @end

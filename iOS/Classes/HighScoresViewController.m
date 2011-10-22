@@ -11,7 +11,7 @@
 
 @implementation HighScoresViewController
 
-@synthesize highScoreTable;
+@synthesize highScoreTable, nameField, scoreField;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -29,35 +29,53 @@
 	[activityIndicator setHidden:YES];
 	[activityIndicator release];
 	
+	[nameField setDelegate:self];
+	
 	[self loadLocalScores];
-}
-
--(IBAction)loadGlobalScores{
-	[activityIndicator setHidden:NO];
-	[activityIndicator startAnimating];
-
-	[HighScores updateGlobalScoresWithArray:highScoresArray completion:^{
-		dispatch_async(dispatch_get_main_queue(), ^{
-			[highScoreTable reloadData];
-			[activityIndicator setHidden:YES];
-			[activityIndicator stopAnimating];
-		});
-	}];
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{
 	NSLog(@"Network error");
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+	[textField resignFirstResponder];
+	return YES;
+}
 
--(IBAction)loadLocalScores{
+- (IBAction)segmentControl:(id)sender{
+	UISegmentedControl *control = (UISegmentedControl*)sender;
+	if( [control selectedSegmentIndex] == 0 )
+		[self loadGlobalScores];
+	else
+		[self loadLocalScores];
+}
+
+-(void)loadGlobalScores{
+	[activityIndicator setHidden:NO];
+	[activityIndicator startAnimating];
+	[highScoreTable setHidden:YES];
+
+	[HighScores updateGlobalScoresWithArray:highScoresArray completion:^{
+		dispatch_async(dispatch_get_main_queue(), ^{
+			[highScoreTable reloadData];
+			[activityIndicator setHidden:YES];
+			[activityIndicator stopAnimating];
+			[highScoreTable setHidden:NO];
+		});
+	}];
+}
+
+-(void)loadLocalScores{
 	[HighScores setShouldContinueToUpdateGlobal:NO];
 	[activityIndicator setHidden:NO];
 	[activityIndicator startAnimating];
+	[highScoreTable setHidden:YES];
 	
 	[HighScores updateLocalScoresWithArray:highScoresArray completion:^{
 		dispatch_async(dispatch_get_main_queue(), ^{
 			[highScoreTable reloadData];
+			[highScoreTable setHidden:NO];
 			[activityIndicator setHidden:YES];
 			[activityIndicator stopAnimating];
 		});
@@ -65,9 +83,18 @@
 }
 
 -(IBAction)postScore{
+	[nameField resignFirstResponder];
+	[scoreField resignFirstResponder];
+	
+	if( [[nameField text] isEqualToString:@""] || [[scoreField text] isEqualToString:@""] ){
+		UIAlertView *msg = 	[[UIAlertView alloc] initWithTitle:@"Check data" message:@"Make sure name and score is filled" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+		[msg show];
+		[msg release];
+	}
+	
 	NSMutableArray *temp = [[NSMutableArray alloc] init];
-	[temp addObject:@"Your Name"];
-	[temp addObject:[NSNumber numberWithInt:3000]];
+	[temp addObject:[nameField text]];
+	[temp addObject:[NSNumber numberWithInt:[[scoreField text] intValue] ] ];
 	
 	NSMutableArray *temp1 = [[NSMutableArray alloc] init];
 	[temp1 addObject:@"name"];

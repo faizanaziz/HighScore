@@ -24,8 +24,9 @@ static BOOL shouldContinueToUpdateGlobal;
 	}
 	
 	NSMutableArray *localHighScores = [[NSMutableArray alloc] init];
+	int totalScore = [score intValue];
 	[HighScores updateLocalScoresWithArray:localHighScores completion:^{
-		int totalScore = [score intValue], tempTotalScore, count = [localHighScores count];
+		int tempTotalScore, count = [localHighScores count];
 		BOOL didInsert = NO;
 		
 		for ( int i= 0 ; i < count; i++ ){
@@ -47,22 +48,22 @@ static BOOL shouldContinueToUpdateGlobal;
 		}
 		
 		[localHighScores writeToFile:[HighScores highScoresFilePath] atomically:YES];
-		if(canPostGlobally){
-			NSString *usrName = [aScoreDictionary objectForKey:@"name"];
-			if(usrName == nil){
-				NSLog(@"Error: can't post score globally name must be present");
-				return;
-			}
-			usrName = [usrName stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-			NSString *urlString = [[NSString alloc] initWithFormat:@"%@put_score.php?secret=%@&name=%@&score=%d", DB_SERVER, DB_SECRET, usrName,totalScore];
-			NSLog(@"Even more crappy %@", urlString);
-			NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
-			[NSURLConnection connectionWithRequest:request delegate:aDelegate];
-			[urlString release];
-		}
-		
 	}];
 	[localHighScores release];
+	
+	if(canPostGlobally){
+		NSString *usrName = [aScoreDictionary objectForKey:@"name"];
+		if(usrName == nil){
+			NSLog(@"Error: can't post score globally name must be present");
+			return;
+		}
+		usrName = [usrName stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+		NSString *urlString = [[NSString alloc] initWithFormat:@"%@put_score.php?secret=%@&name=%@&score=%d", DB_SERVER, DB_SECRET, usrName,totalScore];
+		NSLog(@"Even more crappy %@", urlString);
+		NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
+		[NSURLConnection connectionWithRequest:request delegate:aDelegate];
+		[urlString release];
+	}
 }
 
 + (void)clearLocalHighScores{

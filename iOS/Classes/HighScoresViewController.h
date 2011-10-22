@@ -9,16 +9,22 @@
 #import <UIKit/UIKit.h>
 #import "HighScores.h"
 
-@interface HighScoresViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface HighScoresViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate> {
 	IBOutlet UITableView *highScoreTable;
 	NSMutableArray *highScoresArray;
 	UIActivityIndicatorView *activityIndicator;
+	
+	IBOutlet UITextField *nameField, *scoreField;
 }
 
 @property (nonatomic, retain) UITableView *highScoreTable;
+@property (nonatomic, retain) UITextField *scoreField;
+@property (nonatomic, retain) UITextField *nameField;
 
--(IBAction)loadGlobalScores;
--(IBAction)loadLocalScores;
--(IBAction)postScore;
+-(void)loadGlobalScores;
+-(void)loadLocalScores;
+
+- (IBAction)postScore;
+- (IBAction)segmentControl:(id)sender;
 
 @end
